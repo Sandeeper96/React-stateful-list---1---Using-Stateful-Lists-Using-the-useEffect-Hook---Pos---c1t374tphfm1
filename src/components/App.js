@@ -29,10 +29,6 @@ const data = {
 
 const year = Object.keys(data);
 
-// const year = [];
-// for(let i=0 ;i<year1.length ;i++){
-//   year.push(parseInt(year1[i]));
-// }
 console.log(year)
 
 const App = () => {
@@ -40,8 +36,7 @@ const App = () => {
   const [yearState , setYearState] = useState("")
 
   function changeYear(e){
-    // console.log(yearState);
-    // console.log(typeof(yearState))
+  
     setYearState(e.target.value);
   }
 
